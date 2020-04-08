@@ -1,0 +1,1 @@
+# Study cases for Ruby loops
