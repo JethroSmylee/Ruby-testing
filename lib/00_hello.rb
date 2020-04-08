@@ -7,4 +7,5 @@ def say_hello(first_name)
   puts "So hello, #{first_name}"
 end
 
-say_hello(ask_first_name)
+first_name = ask_first_name()
+say_hello(first_name)
