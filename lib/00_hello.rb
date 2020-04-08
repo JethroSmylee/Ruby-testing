@@ -1,7 +1,6 @@
 def ask_first_name
-  puts "What's you beautiful name?"
-  print "❯ "
-  return String(gets.chomp)
+  print "What's you beautiful name?\n > "
+  return (gets.chomp)  
 end
 
 def say_hello(first_name)
