@@ -1,6 +1,7 @@
 def ask_first_name
   print "What's you beautiful name?\n > "
-  return (gets.chomp)  
+ first_name = gets.chomp
+ first_name  
 end
 
 def say_hello(first_name)
